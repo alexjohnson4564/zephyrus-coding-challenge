@@ -1,10 +1,10 @@
 // Task 1: Reverse String
-function stringReverse1(str) {
+function reverseString1(str) {
     if (typeof(str) !== 'string') return;
     return str.split('').reverse().join('');
 }
 
-function stringReverse2(str) {
+function reverseString2(str) {
     if (typeof(str) !== 'string') return;
     const arr = new Array(str.length);
     str.split('').forEach((char, i) => {
